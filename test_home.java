@@ -1,10 +1,10 @@
-
+package home_calc;
 import static org.junit.jupiter.api.Assertions.*;
 
 import org.junit.jupiter.api.Test;
 
-class HouseConstructioncostTest {
-    HouseConstructioncost obj=new HouseConstructioncost();
+class house_estimator {
+    home_estmation obj=new home_estmation();
     @Test
     void testCalc() {
         assertEquals(120000, obj.get_cost("standard",100));
