@@ -2,12 +2,7 @@ package home_calc;
 import java.util.HashMap;
 
 class home_estmation {
-
-
-
-
-
-    public int get_cost(String standards,int area) {
+	public int get_cost(String standards,int area) {
         //Using nested if checks every condition causes time redundant
         // the retrival time of Hashmap is O(1)
 
